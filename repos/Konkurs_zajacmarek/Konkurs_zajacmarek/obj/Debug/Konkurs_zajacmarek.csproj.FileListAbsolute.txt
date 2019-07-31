@@ -5,3 +5,10 @@ C:\Users\Kejlus\source\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Kon
 C:\Users\Kejlus\source\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.csproj.CoreCompileInputs.cache
 C:\Users\Kejlus\source\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.exe
 C:\Users\Kejlus\source\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\bin\Debug\Konkurs_zajacmarek.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\bin\Debug\Konkurs_zajacmarek.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\bin\Debug\Konkurs_zajacmarek.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\Konkurs_zajacmarek\Konkurs_zajacmarek\obj\Debug\Konkurs_zajacmarek.pdb
