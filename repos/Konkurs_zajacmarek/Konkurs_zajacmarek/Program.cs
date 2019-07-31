@@ -16,7 +16,7 @@ namespace Konkurs_zajacmarek
             List<B> listaB = new List<B>();
             Random random = new Random();
 
-            string[] tablicaStringow = { "AAAAA", "BBBBBB", "CCCC", "DDDDD", "EEEEEEEEE"};
+            string[] tablicaStringow = { "AAAAA", "BBBBBB", "CCCC", "DDDD", "EEEEEEEEE"};
             for (int i = 0; i < 5; i++)
             {
                 listaA.Add(new A() { liczba = random.Next(2, 101), napis = tablicaStringow[i] } );
