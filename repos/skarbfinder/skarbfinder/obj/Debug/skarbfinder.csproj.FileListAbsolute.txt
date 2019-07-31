@@ -1,0 +1,7 @@
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\bin\Debug\skarbfinder.exe.config
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\bin\Debug\skarbfinder.exe
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\bin\Debug\skarbfinder.pdb
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\obj\Debug\skarbfinder.csprojAssemblyReference.cache
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\obj\Debug\skarbfinder.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\obj\Debug\skarbfinder.exe
+C:\Users\Kejlus\source\repos\skarbfinder\skarbfinder\obj\Debug\skarbfinder.pdb

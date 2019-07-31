@@ -1,0 +1,7 @@
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\bin\Debug\obzartuchy.exe.config
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\bin\Debug\obzartuchy.exe
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\bin\Debug\obzartuchy.pdb
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\obj\Debug\obzartuchy.csprojAssemblyReference.cache
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\obj\Debug\obzartuchy.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\obj\Debug\obzartuchy.exe
+C:\Users\Kejlus\source\repos\obzartuchy\obzartuchy\obj\Debug\obzartuchy.pdb
