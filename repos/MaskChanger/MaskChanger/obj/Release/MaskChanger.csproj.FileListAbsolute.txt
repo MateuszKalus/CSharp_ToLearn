@@ -1,0 +1,10 @@
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\bin\Release\MaskChanger.exe.config
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\bin\Release\MaskChanger.exe
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\bin\Release\MaskChanger.pdb
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csprojAssemblyReference.cache
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.Form1.resources
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.Properties.Resources.resources
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csproj.GenerateResource.cache
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csproj.CoreCompileInputs.cache
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.exe
+C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.pdb
