@@ -1,0 +1,7 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\bin\Debug\PA05_BIB_spoj.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\bin\Debug\PA05_BIB_spoj.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\bin\Debug\PA05_BIB_spoj.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\obj\Debug\PA05_BIB_spoj.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\obj\Debug\PA05_BIB_spoj.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\obj\Debug\PA05_BIB_spoj.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\PA05_BIB_spoj\PA05_BIB_spoj\obj\Debug\PA05_BIB_spoj.pdb

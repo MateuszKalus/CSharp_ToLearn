@@ -1,0 +1,7 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\bin\Release\377_dp.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\bin\Release\377_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\bin\Release\377_dp.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\obj\Release\377_dp.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\obj\Release\377_dp.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\obj\Release\377_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\377_dp\377_dp\obj\Release\377_dp.pdb

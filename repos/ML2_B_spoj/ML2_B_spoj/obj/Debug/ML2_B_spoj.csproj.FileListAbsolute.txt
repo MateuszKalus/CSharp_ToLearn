@@ -1,0 +1,7 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\obj\Debug\ML2_B_spoj.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\obj\Debug\ML2_B_spoj.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\bin\Debug\ML2_B_spoj.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\bin\Debug\ML2_B_spoj.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\bin\Debug\ML2_B_spoj.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\obj\Debug\ML2_B_spoj.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ML2_B_spoj\ML2_B_spoj\obj\Debug\ML2_B_spoj.pdb

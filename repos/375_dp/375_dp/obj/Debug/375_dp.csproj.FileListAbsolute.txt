@@ -1,0 +1,7 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\bin\Debug\375_dp.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\bin\Debug\375_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\bin\Debug\375_dp.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\obj\Debug\375_dp.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\obj\Debug\375_dp.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\obj\Debug\375_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\375_dp\375_dp\obj\Debug\375_dp.pdb

@@ -1,0 +1,7 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\bin\Debug\380_dp.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\bin\Debug\380_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\bin\Debug\380_dp.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\obj\Debug\380_dp.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\obj\Debug\380_dp.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\obj\Debug\380_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\380_dp\380_dp\obj\Debug\380_dp.pdb

@@ -1,0 +1,10 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\bin\Debug\ObjectsFormTest.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\bin\Debug\ObjectsFormTest.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\bin\Debug\ObjectsFormTest.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.Form1.resources
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.Properties.Resources.resources
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.csproj.GenerateResource.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\ObjectsFormTest\ObjectsFormTest\obj\Debug\ObjectsFormTest.pdb

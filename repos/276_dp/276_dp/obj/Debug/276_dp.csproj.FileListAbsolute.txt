@@ -1,0 +1,7 @@
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\bin\Debug\276_dp.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\bin\Debug\276_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\bin\Debug\276_dp.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\obj\Debug\276_dp.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\obj\Debug\276_dp.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\obj\Debug\276_dp.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\276_dp\276_dp\obj\Debug\276_dp.pdb
