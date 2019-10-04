@@ -8,3 +8,13 @@ C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csp
 C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csproj.CoreCompileInputs.cache
 C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.exe
 C:\Users\MKalus\source\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\bin\Release\MaskChanger.exe.config
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\bin\Release\MaskChanger.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\bin\Release\MaskChanger.pdb
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csprojAssemblyReference.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.Form1.resources
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.Properties.Resources.resources
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csproj.GenerateResource.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.csproj.CoreCompileInputs.cache
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.exe
+C:\Users\Kejlus\Documents\GitHub\CSharp_ToLearn\repos\MaskChanger\MaskChanger\obj\Release\MaskChanger.pdb

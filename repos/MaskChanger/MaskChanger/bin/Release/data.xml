@@ -3,58 +3,22 @@
 <presets>
   <preset ID="0">
     <weather>Cloudy</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-15h10m43s</source_path>
-    <foldersufix></foldersufix>
-    <description>dancing in the moonlight</description>
-    <time>15:10:43_29.09.2019</time>
+    <root_path>C:\Users\Kejlus\Desktop\h12\calibration</root_path>
+    <source_path>Presets\4.10.2019-18h12m41s</source_path>
+    <foldersufix>4.10.2019-18h12m41s</foldersufix>
+    <cameraIDa>11111111</cameraIDa>
+    <cameraIDb>22222222</cameraIDb>
+    <description>Dupa</description>
+    <time>18:12:41_04.10.2019</time>
   </preset>
   <preset ID="1">
-    <weather>Rainy</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-16h30m18s</source_path>
-    <foldersufix>29.9.2019-16h30m18s</foldersufix>
-    <description>ff</description>
-    <time>16:30:18_29.09.2019</time>
-  </preset>
-  <preset ID="2">
-    <weather>Rainy</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-16h30m29s</source_path>
-    <foldersufix>29.9.2019-16h30m29s</foldersufix>
-    <description>ff</description>
-    <time>16:30:29_29.09.2019</time>
-  </preset>
-  <preset ID="3">
-    <weather>Rainy</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-16h30m45s</source_path>
-    <foldersufix>29.9.2019-16h30m45s</foldersufix>
-    <description>ff</description>
-    <time>16:30:45_29.09.2019</time>
-  </preset>
-  <preset ID="4">
-    <weather>Sunny</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-16h31m14s</source_path>
-    <foldersufix>29.9.2019-16h31m14s</foldersufix>
-    <description>fff</description>
-    <time>16:31:14_29.09.2019</time>
-  </preset>
-  <preset ID="5">
-    <weather>Sunny</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-16h38m57s</source_path>
-    <foldersufix>29.9.2019-16h38m57s</foldersufix>
-    <description>ddd</description>
-    <time>16:38:57_29.09.2019</time>
-  </preset>
-  <preset ID="6">
-    <weather>Sunny</weather>
-    <root_path>C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\dołek 17 test\Hole17\calibration</root_path>
-    <source_path>Presets\29.9.2019-16h42m1s</source_path>
-    <foldersufix>29.9.2019-16h42m1s</foldersufix>
-    <description>ddd</description>
-    <time>16:42:1_29.09.2019</time>
+    <weather>Cloudy</weather>
+    <root_path>C:\Users\Kejlus\Desktop\h12\calibration</root_path>
+    <source_path>Presets\4.10.2019-18h20m21s</source_path>
+    <foldersufix>4.10.2019-18h20m21s</foldersufix>
+    <cameraIDa>11111111</cameraIDa>
+    <cameraIDb>22222222</cameraIDb>
+    <description>cgfbvmn</description>
+    <time>18:20:21_04.10.2019</time>
   </preset>
 </presets>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,8 @@ namespace MaskChanger
                             new XElement("root_path", preset.root_path),
                             new XElement("source_path", preset.source_path),
                             new XElement("foldersufix", preset.foldersufix),
+                            new XElement("cameraIDa", preset.cameraIDa),
+                            new XElement("cameraIDb", preset.cameraIDb),
                             new XElement("description", preset.description),
                             new XElement("time", preset.time)
                         )
@@ -38,20 +41,25 @@ namespace MaskChanger
         }
         public void LoadFromXML()
         {
-            XDocument xml = XDocument.Load("data.xml");
-
-            preset_list = (
-                from
-                preset in xml.Root.Elements("preset")
-                select new Preset(Convert.ToInt16(preset.Attribute("ID").Value), preset.Element("root_path").Value, preset.Element("source_path").Value, 
-                preset.Element("foldersufix").Value, preset.Element("weather").Value, preset.Element("description").Value, preset.Element("time").Value)
-                ).ToList<Preset>();
-
-            listBox1.Items.Clear();
-            foreach (var item in preset_list)
+            if (File.Exists("data.xml"))
             {
-                listBox1.Items.Add(item.root_path + ";" + item.weather + ";" + item.description + ";" + item.time);
+                XDocument xml = XDocument.Load("data.xml");
+
+                    preset_list = (
+                        from
+                        preset in xml.Root.Elements("preset")
+                        select new Preset(Convert.ToInt16(preset.Attribute("ID").Value), preset.Element("root_path").Value, preset.Element("source_path").Value,
+                        preset.Element("foldersufix").Value, preset.Element("weather").Value, preset.Element("cameraIDa").Value, preset.Element("cameraIDb").Value, preset.Element("description").Value, preset.Element("time").Value)
+                        ).ToList<Preset>();
+
+
+                listBox1.Items.Clear();
+                foreach (var item in preset_list)
+                {
+                    listBox1.Items.Add(item.ID);
+                }
             }
+            
         }
 
 
@@ -65,7 +73,9 @@ namespace MaskChanger
             LoadFromXML();
 
             System.Threading.Thread.CurrentThread.CurrentCulture =
-    System.Globalization.CultureInfo.CreateSpecificCulture("th-TH");
+            System.Globalization.CultureInfo.CreateSpecificCulture("th-TH");
+
+            
 
         }
 
@@ -91,7 +101,7 @@ namespace MaskChanger
 
             foreach (var item in preset_list)
             {
-                listBox1.Items.Add(item.root_path + ";" + item.weather + ";" + item.description + ";" + item.time);
+                listBox1.Items.Add(item.ID);
             }
             SaveToXML();
         }
@@ -105,6 +115,30 @@ namespace MaskChanger
         private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selit = listBox1.SelectedIndex;
+            setWeather.Text = preset_list[selit].weather;
+            setTime.Text = preset_list[selit].time;
+            setDescription.Text = preset_list[selit].description;
+
+            set_bn.Enabled = true;
+        }
+
+        private void set_bn_Click(object sender, EventArgs e)
+        {
+            
+            int selit = listBox1.SelectedIndex;
+            
+            preset_list[selit].SetPreset();
+            
         }
     }
 }
