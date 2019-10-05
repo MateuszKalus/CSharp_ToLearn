@@ -13,6 +13,7 @@ namespace MaskChanger
     {
         public static int licznik = 0;
         public int ID { get; set; }
+        public bool setdaily { get; set; }
         public string root_path { get; set; }
         public string source_path { get; set; }
         public string weather { get; set; }
@@ -41,24 +42,29 @@ namespace MaskChanger
         {
    
 
-            string filename = "calibFrame.png";
+            string[] filename =  { "calibFrame.png", "mask.png", "motion_global.png" };
+
+
             string source_path_temp = System.IO.Path.Combine(source_path, cameraID); //ścieżka, do której będę zapisywał CalibFrame z folderu calibration
 
             
             string root_path_temp = System.IO.Path.Combine(root_path, cameraID); // oraz bezpośrednio do folderu kamery
-      
 
-            string root_file = System.IO.Path.Combine(root_path_temp, filename);  // i do pliku
-            string source_file = System.IO.Path.Combine(source_path_temp, filename);  //ścieżka do nowego pliku, do "przechowalni" presetów
+            foreach (var name in filename)
+            {
+                string root_file = System.IO.Path.Combine(root_path_temp, name);  // i do pliku
+                string source_file = System.IO.Path.Combine(source_path_temp, name);  //ścieżka do nowego pliku, do "przechowalni" presetów
 
 
-            DirectoryInfo dir = new DirectoryInfo(source_path_temp);  //tworzę obiekt ścieżki
+                DirectoryInfo dir = new DirectoryInfo(source_path_temp);  //tworzę obiekt ścieżki
 
-            if (Directory.Exists(dir.FullName) == false) System.IO.Directory.CreateDirectory(source_path_temp); //sprawdzam, czy folder kamery istnieje,
-                                                                                                           //jeśli nie, to tworzę folder
+                if (Directory.Exists(dir.FullName) == false) System.IO.Directory.CreateDirectory(source_path_temp); //sprawdzam, czy folder kamery istnieje,
+                                                                                                                    //jeśli nie, to tworzę folder
 
-            if (fromTo == 0 ) System.IO.File.Copy(root_file, source_file, true);
-            else System.IO.File.Copy(source_file, root_file, true);
+                if (fromTo == 0) System.IO.File.Copy(root_file, source_file, true);
+                else System.IO.File.Copy(source_file, root_file, true);
+            }
+            
 
 
 
@@ -67,9 +73,8 @@ namespace MaskChanger
         public Preset(string root_path, string weather, string description)  //tworzenie obiektu przez użytkownika
         {
             dateTime.ToString("d", DateTimeFormatInfo.InvariantInfo);
+            this.setdaily = false;
 
-
-            //MessageBox.Show(foldersufix);
             this.ID = licznik++;
             
 
@@ -83,18 +88,15 @@ namespace MaskChanger
 
                 this.root_path = root_path + @"\calibration";
 
-                MessageBox.Show("1");
-
                 string[] cameraFolders = Directory.GetDirectories(this.root_path);
-                MessageBox.Show("2");
+
 
                 DirectoryInfo dirIDa = new DirectoryInfo(cameraFolders[0]);
-                MessageBox.Show("2,5");
+
                 DirectoryInfo dirIDb = new DirectoryInfo(cameraFolders[1]);
-                MessageBox.Show("3");
+
                 this.cameraIDa = dirIDa.Name;
                 this.cameraIDb = dirIDb.Name;
-                MessageBox.Show(cameraIDb);
 
                 SetFoldersufix();
 
@@ -108,7 +110,7 @@ namespace MaskChanger
             } 
         }
 
-        public Preset(int ID, string root_path, string source_path, string foldersufix, string weather, string cameraIDa, string cameraIDb, string description, string time) //tworzenie obiektu z XMLa
+        public Preset(int ID, string root_path, string source_path, string foldersufix, string weather, string cameraIDa, string cameraIDb, string description, string time, bool setdaily) //tworzenie obiektu z XMLa
         {
             //foldersufix = Convert.ToString(dateTime.Day + "." + dateTime.Month + "." + dateTime.Year + "h" + dateTime.Hour + "m" + dateTime.Minute + "s" + dateTime.Second);
             this.cameraIDa = cameraIDa;
@@ -120,6 +122,7 @@ namespace MaskChanger
             this.description = description;
             this.source_path = source_path;
             this.time = time;
+            this.setdaily = setdaily;
         }
 
 
