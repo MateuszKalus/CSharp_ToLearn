@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Saved presets:-->
+<presets>
+  <preset ID="0" setDaily="false">
+    <weather>Cloudy</weather>
+    <root_path>C:\Users\Kejlus\Desktop\h12\calibration</root_path>
+    <source_path>Presets\5.10.2019-17h26m30s</source_path>
+    <foldersufix>5.10.2019-17h26m30s</foldersufix>
+    <cameraIDa>11111111</cameraIDa>
+    <cameraIDb>22222222</cameraIDb>
+    <description>rfdegdfg</description>
+    <time>17:26:30_05.10.2019</time>
+  </preset>
+</presets>

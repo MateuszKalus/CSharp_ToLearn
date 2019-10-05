@@ -184,9 +184,9 @@ namespace MaskChanger
             int selit = listBox1.SelectedIndex;
             
             preset_list[selit].SetPreset();
-
             
         }
+
         private void ClearSetTab()
         {
             setTime.Text = null;

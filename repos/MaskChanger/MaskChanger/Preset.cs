@@ -22,6 +22,9 @@ namespace MaskChanger
         public string foldersufix { get; set; }
         public string cameraIDa { get; set; }
         public string cameraIDb { get; set; }
+        private string calibFolderName { get; set; } = @"\calibration";
+        private string autoCalibFolderName { get; set; } = @"\AutoCalibration";
+        private string presetsFolderName { get; set; } = @"Presets\";
 
         DateTime dateTime = DateTime.Now;
         
@@ -31,8 +34,17 @@ namespace MaskChanger
 
         }
 
+        private void DeleteAutoCalibFolder()
+        {
+            string autocalib_path = root_path.Remove((root_path.Count())- calibFolderName.Count(), calibFolderName.Count()) + autoCalibFolderName;
+            MessageBox.Show(autocalib_path);
+            if (Directory.Exists(autocalib_path)) Directory.Delete(autocalib_path, true);
+
+        }
+
         public void SetPreset()
         {
+            DeleteAutoCalibFolder();
             CopyMask(cameraIDa, 1);
             CopyMask(cameraIDb, 1);
         }
@@ -86,7 +98,7 @@ namespace MaskChanger
                 this.weather = weather;
                 this.description = description;
 
-                this.root_path = root_path + @"\calibration";
+                this.root_path = root_path + calibFolderName;
 
                 string[] cameraFolders = Directory.GetDirectories(this.root_path);
 
@@ -100,7 +112,7 @@ namespace MaskChanger
 
                 SetFoldersufix();
 
-                this.source_path = System.IO.Path.Combine(@"Presets\", foldersufix);
+                this.source_path = System.IO.Path.Combine(presetsFolderName, foldersufix);
 
                 this.time = $"{dateTime.Hour}:{ dateTime.Minute}:{dateTime.Second}" + "_" + dateTime.ToString("d",
                   CultureInfo.CreateSpecificCulture("de-DE"));
