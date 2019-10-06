@@ -47,10 +47,17 @@ namespace MaskChanger
         private void RestartTriCam()
         {
 
-            foreach (Process p in Process.GetProcessesByName("FlightScope.Golf.TriCamApp"))
+            foreach (Process p in Process.GetProcesses())
             {
-                p.CloseMainWindow();
+                if (p.ProcessName == "FlightScope.Golf.TriCamApp")
+                {
+                    p.Kill();
+                    
+                }
             }
+            Thread.Sleep(3000);
+            Process.Start(@"C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\TriCam2.44_full\FlightScope.Golf.TriCamApp.exe");
+
         }
 
         public void SetPreset()

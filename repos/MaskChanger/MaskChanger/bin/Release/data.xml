@@ -11,4 +11,14 @@
     <description>rfdegdfg</description>
     <time>17:26:30_05.10.2019</time>
   </preset>
+  <preset ID="1" setDaily="false">
+    <weather></weather>
+    <root_path>C:\Users\MKalus\Desktop\h4\Hole4\calibration</root_path>
+    <source_path>Presets\6.10.2019-14h24m8s</source_path>
+    <foldersufix>6.10.2019-14h24m8s</foldersufix>
+    <cameraIDa>21815173</cameraIDa>
+    <cameraIDb>22369554</cameraIDb>
+    <description></description>
+    <time>14:24:8_06.10.2019</time>
+  </preset>
 </presets>
