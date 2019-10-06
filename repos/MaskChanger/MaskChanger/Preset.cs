@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -42,11 +44,21 @@ namespace MaskChanger
 
         }
 
+        private void RestartTriCam()
+        {
+
+            foreach (Process p in Process.GetProcessesByName("FlightScope.Golf.TriCamApp"))
+            {
+                p.CloseMainWindow();
+            }
+        }
+
         public void SetPreset()
         {
             DeleteAutoCalibFolder();
             CopyMask(cameraIDa, 1);
             CopyMask(cameraIDb, 1);
+            RestartTriCam();
         }
 
         private void CopyMask(string cameraID, int fromTo) //jeśli fromTo == 0, wtedy kopiuje maskę do przechowalni presetów, jeśli ==1, wtedy ustawia preset

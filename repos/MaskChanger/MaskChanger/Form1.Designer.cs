@@ -44,6 +44,8 @@
             this.Save_page = new System.Windows.Forms.TabPage();
             this.alwaysuse_checkbox = new System.Windows.Forms.CheckBox();
             this.Set_page = new System.Windows.Forms.TabPage();
+            this.setdaily_bn = new System.Windows.Forms.CheckBox();
+            this.delete_bn = new System.Windows.Forms.Button();
             this.set_bn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.setDescription = new System.Windows.Forms.TextBox();
@@ -51,9 +53,7 @@
             this.setTime = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.setWeather = new System.Windows.Forms.TextBox();
-            this.delete_bn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.setdaily_bn = new System.Windows.Forms.CheckBox();
             this.zegar = new System.Windows.Forms.Timer(this.components);
             this.tabControl1.SuspendLayout();
             this.Save_page.SuspendLayout();
@@ -220,6 +220,30 @@
             this.Set_page.Text = "Set";
             this.Set_page.UseVisualStyleBackColor = true;
             // 
+            // setdaily_bn
+            // 
+            this.setdaily_bn.AutoSize = true;
+            this.setdaily_bn.Location = new System.Drawing.Point(269, 85);
+            this.setdaily_bn.Name = "setdaily_bn";
+            this.setdaily_bn.Size = new System.Drawing.Size(64, 17);
+            this.setdaily_bn.TabIndex = 11;
+            this.setdaily_bn.Text = "set daily";
+            this.setdaily_bn.UseVisualStyleBackColor = true;
+            this.setdaily_bn.CheckedChanged += new System.EventHandler(this.setdaily_bn_CheckedChanged);
+            // 
+            // delete_bn
+            // 
+            this.delete_bn.BackColor = System.Drawing.Color.Transparent;
+            this.delete_bn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.delete_bn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.delete_bn.Location = new System.Drawing.Point(154, 287);
+            this.delete_bn.Name = "delete_bn";
+            this.delete_bn.Size = new System.Drawing.Size(75, 23);
+            this.delete_bn.TabIndex = 9;
+            this.delete_bn.Text = "Delete";
+            this.delete_bn.UseVisualStyleBackColor = false;
+            this.delete_bn.Click += new System.EventHandler(this.delete_bn_Click);
+            // 
             // set_bn
             // 
             this.set_bn.Enabled = false;
@@ -283,19 +307,6 @@
             this.setWeather.Size = new System.Drawing.Size(100, 20);
             this.setWeather.TabIndex = 2;
             // 
-            // delete_bn
-            // 
-            this.delete_bn.BackColor = System.Drawing.Color.Transparent;
-            this.delete_bn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.delete_bn.Cursor = System.Windows.Forms.Cursors.Default;
-            this.delete_bn.Location = new System.Drawing.Point(154, 287);
-            this.delete_bn.Name = "delete_bn";
-            this.delete_bn.Size = new System.Drawing.Size(75, 23);
-            this.delete_bn.TabIndex = 9;
-            this.delete_bn.Text = "Delete";
-            this.delete_bn.UseVisualStyleBackColor = false;
-            this.delete_bn.Click += new System.EventHandler(this.delete_bn_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -304,17 +315,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(81, 29);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
-            // 
-            // setdaily_bn
-            // 
-            this.setdaily_bn.AutoSize = true;
-            this.setdaily_bn.Location = new System.Drawing.Point(269, 85);
-            this.setdaily_bn.Name = "setdaily_bn";
-            this.setdaily_bn.Size = new System.Drawing.Size(64, 17);
-            this.setdaily_bn.TabIndex = 11;
-            this.setdaily_bn.Text = "set daily";
-            this.setdaily_bn.UseVisualStyleBackColor = true;
-            this.setdaily_bn.CheckedChanged += new System.EventHandler(this.setdaily_bn_CheckedChanged);
             // 
             // zegar
             // 
@@ -330,7 +330,7 @@
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "MaskChanger v0.1";
+            this.Text = "MaskChanger v0.2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.Save_page.ResumeLayout(false);
