@@ -87,6 +87,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="iconfinder_Arrows_Refresh_Replace_Round_Circle_1329089.ico" />
+    <None Include="Resources\wykrz.gif" />
+    <None Include="Resources\wykrzyknik.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -97,13 +97,18 @@ namespace MaskChanger
                 {
                     folderpath_lbl.Text = path_file[1];
                     alwaysuse_checkbox.Checked = true;
-                    folderBrowserDialog1.SelectedPath = folderpath_lbl.Text;
+                    folderBrowserDialog1.SelectedPath = path_file[1];
+
+                    folderpath_lbl2.Text = path_file[2];
+                    folderBrowserDialog1.SelectedPath = path_file[2];
                 }
                 else
                 {
                     alwaysuse_checkbox.Checked = false;
                 }
+
             }
+            CheckPaths();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -214,19 +219,35 @@ namespace MaskChanger
         {
             if (i == 1)
             {
-                string s = "1;" + folderpath_lbl.Text;
+                string s = "1;" + folderpath_lbl.Text + ";" + folderpath_lbl2.Text;
                 File.WriteAllText("path.txt", s);
             }
             else
             {
-                string s = "0;" + folderpath_lbl.Text;
+                string s = "0;" + folderpath_lbl.Text + ";" + folderpath_lbl2.Text;
                 File.WriteAllText("path.txt", s);
             }
         }
 
+        private void CheckPaths()
+        {
+            if (folderpath_lbl.Text == "NONE" || folderpath_lbl.Text == null || folderpath_lbl.Text == "")
+            {
+                pictureBox2.Visible = true;
+            }
+            else pictureBox2.Visible = false;
+
+            if (folderpath_lbl2.Text == "NONE" || folderpath_lbl2.Text == null || folderpath_lbl2.Text == "")
+            {
+                pictureBox3.Visible = true;
+            }
+            else pictureBox3.Visible = false;
+        }
+
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            
+
+            CheckPaths();
 
             if (alwaysuse_checkbox.Checked == true)
             {
@@ -252,6 +273,7 @@ namespace MaskChanger
             }
         }
 
+
         private void zegar_Tick(object sender, EventArgs e)
         {
             DateTime timecomp = DateTime.Now;
@@ -269,6 +291,23 @@ namespace MaskChanger
                 }
 
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.ShowDialog();
+            folderpath_lbl2.Text = Convert.ToString(folderBrowserDialog1.SelectedPath);
+        }
+
+
+        private void folderpath_lbl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void folderpath_lbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

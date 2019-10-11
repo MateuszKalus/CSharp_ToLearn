@@ -42,6 +42,10 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Save_page = new System.Windows.Forms.TabPage();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.folderpath_lbl2 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.alwaysuse_checkbox = new System.Windows.Forms.CheckBox();
             this.Set_page = new System.Windows.Forms.TabPage();
             this.setdaily_bn = new System.Windows.Forms.CheckBox();
@@ -57,6 +61,8 @@
             this.zegar = new System.Windows.Forms.Timer(this.components);
             this.tabControl1.SuspendLayout();
             this.Save_page.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.Set_page.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -136,7 +142,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(6, 254);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 23);
+            this.button2.Size = new System.Drawing.Size(200, 23);
             this.button2.TabIndex = 7;
             this.button2.Text = "Set \"Hole<number> folder";
             this.button2.UseVisualStyleBackColor = true;
@@ -151,6 +157,7 @@
             this.folderpath_lbl.TabIndex = 8;
             this.folderpath_lbl.Text = "NONE";
             this.folderpath_lbl.TextChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.folderpath_lbl.Click += new System.EventHandler(this.folderpath_lbl_Click);
             // 
             // folderBrowserDialog1
             // 
@@ -169,6 +176,10 @@
             // 
             // Save_page
             // 
+            this.Save_page.Controls.Add(this.pictureBox3);
+            this.Save_page.Controls.Add(this.pictureBox2);
+            this.Save_page.Controls.Add(this.folderpath_lbl2);
+            this.Save_page.Controls.Add(this.button3);
             this.Save_page.Controls.Add(this.alwaysuse_checkbox);
             this.Save_page.Controls.Add(this.button1);
             this.Save_page.Controls.Add(this.folderpath_lbl);
@@ -186,16 +197,59 @@
             this.Save_page.Text = "Save";
             this.Save_page.UseVisualStyleBackColor = true;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(212, 314);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 13;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(212, 254);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // folderpath_lbl2
+            // 
+            this.folderpath_lbl2.AutoSize = true;
+            this.folderpath_lbl2.Location = new System.Drawing.Point(3, 340);
+            this.folderpath_lbl2.Name = "folderpath_lbl2";
+            this.folderpath_lbl2.Size = new System.Drawing.Size(38, 13);
+            this.folderpath_lbl2.TabIndex = 11;
+            this.folderpath_lbl2.Text = "NONE";
+            this.folderpath_lbl2.TextChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.folderpath_lbl2.Click += new System.EventHandler(this.folderpath_lbl2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(6, 314);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Set \"FlightScope.Golf.TriCamApp.exe\"";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // alwaysuse_checkbox
             // 
             this.alwaysuse_checkbox.AutoSize = true;
             this.alwaysuse_checkbox.Checked = true;
             this.alwaysuse_checkbox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.alwaysuse_checkbox.Location = new System.Drawing.Point(164, 258);
+            this.alwaysuse_checkbox.Location = new System.Drawing.Point(6, 385);
             this.alwaysuse_checkbox.Name = "alwaysuse_checkbox";
-            this.alwaysuse_checkbox.Size = new System.Drawing.Size(121, 17);
+            this.alwaysuse_checkbox.Size = new System.Drawing.Size(136, 17);
             this.alwaysuse_checkbox.TabIndex = 9;
-            this.alwaysuse_checkbox.Text = "always use this path";
+            this.alwaysuse_checkbox.Text = "always use these paths";
             this.alwaysuse_checkbox.UseVisualStyleBackColor = true;
             this.alwaysuse_checkbox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -330,11 +384,13 @@
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "MaskChanger v0.2";
+            this.Text = "MaskChanger v0.31";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.Save_page.ResumeLayout(false);
             this.Save_page.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.Set_page.ResumeLayout(false);
             this.Set_page.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -369,6 +425,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox setdaily_bn;
         private System.Windows.Forms.Timer zegar;
+        private System.Windows.Forms.Label folderpath_lbl2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

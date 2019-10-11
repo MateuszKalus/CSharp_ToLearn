@@ -21,4 +21,24 @@
     <description></description>
     <time>14:24:8_06.10.2019</time>
   </preset>
+  <preset ID="2" setDaily="false">
+    <weather>Cloudy</weather>
+    <root_path>C:\Users\Kejlus\Desktop\h12\calibration</root_path>
+    <source_path>Presets\6.10.2019-16h31m4s</source_path>
+    <foldersufix>6.10.2019-16h31m4s</foldersufix>
+    <cameraIDa>11111111</cameraIDa>
+    <cameraIDb>22222222</cameraIDb>
+    <description>jijj</description>
+    <time>16:31:4_06.10.2019</time>
+  </preset>
+  <preset ID="3" setDaily="false">
+    <weather>Cloudy</weather>
+    <root_path>C:\Users\Kejlus\Desktop\h12\calibration</root_path>
+    <source_path>Presets\6.10.2019-18h18m48s</source_path>
+    <foldersufix>6.10.2019-18h18m48s</foldersufix>
+    <cameraIDa>11111111</cameraIDa>
+    <cameraIDb>22222222</cameraIDb>
+    <description>bbvxc </description>
+    <time>18:18:48_06.10.2019</time>
+  </preset>
 </presets>

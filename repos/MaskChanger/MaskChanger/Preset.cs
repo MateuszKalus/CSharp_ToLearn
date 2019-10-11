@@ -27,6 +27,7 @@ namespace MaskChanger
         private string calibFolderName { get; set; } = @"\calibration";
         private string autoCalibFolderName { get; set; } = @"\AutoCalibration";
         private string presetsFolderName { get; set; } = @"Presets\";
+        private string TriCamPath { get; set; } = @"FlightScope.Golf.TriCamApp.exe";
 
         DateTime dateTime = DateTime.Now;
         
@@ -39,7 +40,7 @@ namespace MaskChanger
         private void DeleteAutoCalibFolder()
         {
             string autocalib_path = root_path.Remove((root_path.Count())- calibFolderName.Count(), calibFolderName.Count()) + autoCalibFolderName;
-            MessageBox.Show(autocalib_path);
+            //MessageBox.Show(autocalib_path);
             if (Directory.Exists(autocalib_path)) Directory.Delete(autocalib_path, true);
 
         }
@@ -52,11 +53,26 @@ namespace MaskChanger
                 if (p.ProcessName == "FlightScope.Golf.TriCamApp")
                 {
                     p.Kill();
+                    p.Close();
                     
                 }
+
             }
             Thread.Sleep(3000);
-            Process.Start(@"C:\Users\MKalus\Desktop\FLIGHTSCOPE DATA\TriCam2.44_full\FlightScope.Golf.TriCamApp.exe");
+
+            if (File.Exists("path.txt"))
+            {
+                string[] path_to_path = File.ReadAllText(@"path.txt").Split(';');
+                ProcessStartInfo info = new ProcessStartInfo(Path.Combine(path_to_path[2], TriCamPath));
+                info.Verb = "runas";
+
+                Process process = new Process();
+                process.StartInfo = info;
+                process.Start();
+                //Process.Start(Path.Combine(path_to_path[2], @"FlightScope.Golf.TriCamApp.exe"));
+            }
+            
+
 
         }
 
